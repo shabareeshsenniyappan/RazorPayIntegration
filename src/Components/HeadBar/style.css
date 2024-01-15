@@ -1,0 +1,37 @@
+.head-bar-hero-container {
+  width: 75dvw;
+  margin: 8dvh auto;
+  text-align: center;
+  /* border: 0.91px solid #4f4f4f; */
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: -0.2279626727104187px;
+}
+
+.heding-dark {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 0.9444167613983154px;
+  text-transform: uppercase;
+  margin: 22px 0;
+}
+.header-prod-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #2a2929;
+}
+
+.header-timing-info {
+  font-size: 15px;
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.toogle-bar {
+  /* width: 75dvw;
+  margin: 8dvh auto; */
+}

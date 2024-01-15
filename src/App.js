@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import HeadBar from "./Components/HeadBar/HeadBar";
+import OrderDetails from "./Components/OrderDetails/OrderDetails";
+import Summary from "./Components/Summary/Summary";
+import ButtonBottom from "./Components/ButtonBottom/ButtonBottom";
+import RazorpayComponent from "./Components/RazorPay/RazorpayComponent";
+
+import { useState } from "react";
+import Modal from "./Components/Modal/Modal";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeadBar />
+      <OrderDetails />
+      <Summary />
+      <RazorpayComponent successPay={openModal} />
+      {isOpen && <Modal closeModal={closeModal} />}
     </div>
   );
 }

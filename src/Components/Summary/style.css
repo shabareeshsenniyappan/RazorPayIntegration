@@ -1,0 +1,55 @@
+.summary-container {
+  width: 75dvw;
+  margin: 62px auto;
+}
+.summary-head {
+  font-size: 26px;
+  font-weight: bolder;
+  line-height: 18px;
+  letter-spacing: -0.07999999821186066px;
+  color: #424242;
+}
+
+.detail-container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 0.5px solid #7e838933;
+}
+
+.detail-container-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+.head-txt-1 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.07999999821186066px;
+  color: #7e8389;
+}
+
+.dark-txt {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.dark-txt-2 {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.price-txt-1 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.07999999821186066px;
+  text-align: left;
+
+  color: #424242;
+}
+.price-txt-2 {
+  color: #5a8cd7;
+}
